@@ -1,5 +1,8 @@
 import Header from "@/components/header";
 import {Outlet} from "react-router-dom";
+import { Analytics } from "@vercel/analytics/react";
+
+
 
 const AppLayout = () => {
   return (
@@ -11,6 +14,7 @@ const AppLayout = () => {
       <div className="p-10 text-center bg-gray-800 mt-10">
         Made by Hritik
       </div>
+      <Analytics />
     </div>
   );
 };
