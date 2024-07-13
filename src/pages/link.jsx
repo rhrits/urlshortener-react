@@ -76,11 +76,11 @@ const LinkPage = () => {
             {url?.title}
           </span>
           <a
-            href={`https://x4x.in/${link}`}
+            href={`https://x4x.vercel.app/${link}`}
             target="_blank"
             className="text-3xl sm:text-4xl text-blue-400 font-bold hover:underline cursor-pointer"
           >
-            https://x4x.in/{link}
+            https://x4x.vercel.app/{link}
           </a>
           <a
             href={url?.original_url}
@@ -97,7 +97,7 @@ const LinkPage = () => {
             <Button
               variant="ghost"
               onClick={() =>
-                navigator.clipboard.writeText(`https://x4x.in/${link}`)
+                navigator.clipboard.writeText(`https://x4x.vercel.app/${link}`)
               }
             >
               <Copy />
