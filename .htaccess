@@ -6,4 +6,4 @@ RewriteRule . /index.html [L]
 
 RewriteEngine On
 RewriteCond %{HTTP_HOST} ^www\.aayein\.xyz [NC]
-RewriteRule ^(.*)$ http://aayein.xyz/$1 [L,R=301]
+RewriteRule ^(.*)$ http://aayein.xyz/$1[L,R=301]
