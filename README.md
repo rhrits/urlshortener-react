@@ -1,8 +1,13 @@
-# React + Vite
+# URL Shortener | Link Management Tool
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This URL Shortener application allows users to create, manage, and track short URLs efficiently. Built with React JS, Shadcn UI, Vite, and Supabase, the application offers user authentication for secure access to link management features.
 
-Currently, two official plugins are available:
+## Features
+- **URL Shortening:** Easily create short links from long URLs.
+- **Link Management:** View and manage all your shortened URLs in one place.
+- **Analytics Tracking:** Track the performance of your shortened links.
+- **User Authentication:** Secure access to personalized link management.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech Stack
+- **Frontend:** React JS, Shadcn UI, Vite
+- **Backend:** Supabase
